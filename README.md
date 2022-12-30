@@ -16,5 +16,7 @@ the project is a simple social media website
 set the the database stuff like name and password and server name
 in the index file 
 
+## Example
 
-    
+Uploading YouCut_٢٠٢٢١٢٣٠_١٩٤٦١١٣١٤.mp4…
+
