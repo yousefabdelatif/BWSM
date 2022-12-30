@@ -18,5 +18,6 @@ in the index file
 
 ## Example
 
-Uploading YouCut_٢٠٢٢١٢٣٠_١٩٤٦١١٣١٤.mp4…
+https://user-images.githubusercontent.com/63363268/210102055-834eb5ab-30b3-4d9d-bf36-ebdbb7f77301.mp4
+
 
