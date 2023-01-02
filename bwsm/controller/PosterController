@@ -1,0 +1,35 @@
+<?php
+include("model\PosterModel");
+include("view\PosterView");
+class PosterController
+{
+   private PosterView  $m_PosterView ;
+   private PosterModel  $m_PosterModel ;
+    public function __construct(PDO $APP_DB)
+    {
+       $this->m_PosterModel=$APP_DB;
+        $this->m_PosterView = new PosterView;
+    }
+
+    public function CheckNewCreatedPosts(int $CurrentUserID)
+    {
+        if(isset($_POST["NewPost"]))
+        {
+            $this->m_PosterModel->AddnewPost($_POST["NewPost"],$CurrentUserID);
+
+        }
+
+
+    }
+
+
+    public function GetNewPostes(Int $CurrentUser_Val)
+    {
+
+        $this->m_PosterModel->GetPosts($CurrentUser_Val);
+        
+    }
+
+
+
+}
