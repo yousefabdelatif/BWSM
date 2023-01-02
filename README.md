@@ -14,7 +14,8 @@ the project is a simple social media website
     a better ui 
 ## to use you have to
 set the the database stuff like name and password and server name
-in the index file 
+in the index file and create a database called bwsm and import the bwsm to it 
+
 
 ## Example
 
